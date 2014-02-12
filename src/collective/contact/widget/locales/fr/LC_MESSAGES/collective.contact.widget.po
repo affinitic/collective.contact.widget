@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../widgets.py:163
 msgid "(nothing)"
-msgstr "(aucune)"
+msgstr "(aucun)"
 
 #: ../widgets.py:113
 msgid "please wait"
