@@ -85,7 +85,7 @@ class ContactSource(ObjPathSource):
 
         try:
             results = (self.getTermByBrain(brain, real_value=False)
-                       for brain in self.catalog(**catalog_query))
+                       for brain in self.catalog(**catalog_query) if brain is not None)
         except ParseError:
             return []
 
